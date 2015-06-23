@@ -1,0 +1,15 @@
+{
+    "name": "guidsen/fake-identifier",
+    "description": "A package to protect your ID with some hashing.",
+    "require": {
+        "jenssegers/optimus": "dev-master",
+        "illuminate/support": "5.1.*"
+    },
+    "authors": [
+        {
+            "name": "Guido Schmitz",
+            "email": "guisch95@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
