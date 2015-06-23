@@ -1,4 +1,4 @@
-<?php namespace Guidsen\FakeIndentifier;
+<?php namespace Guidsen\FakeIdentifier;
 
 class Optimus extends \Jenssegers\Optimus\Optimus
 {

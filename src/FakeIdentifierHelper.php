@@ -1,4 +1,4 @@
-<?php namespace Guidsen\FakeIndentifier;
+<?php namespace Guidsen\FakeIdentifier;
 
 use Jenssegers\Optimus\Optimus;
 
