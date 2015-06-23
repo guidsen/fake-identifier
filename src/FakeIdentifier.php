@@ -2,21 +2,17 @@
 
 trait FakeIdentifier
 {
-    public function getHashedIdAttribute()
-    {
-        return app('optimus')->encode($this->attributes['id']);
-    }
-
     public function getAttribute($key)
     {
         if ($key == app('optimus')->getAttributeName())
-            return app('optimus')->encode($this->attributes['id']);
+            return app('optimus')->encode($this->attributes[$this->primaryKey]);
 
         return parent::getAttribute($key);
     }
 
-    public function setAppends(array $appends)
+    public function setAppends()
     {
-        $this->appends = array_merge($this->appends, ['hashed_id']);
+        $attributeName = app('optimus')->getAttributeName();
+        $this->appends = array_merge($this->appends, [$attributeName]);
     }
 }
