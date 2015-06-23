@@ -1,11 +1,14 @@
 <?php namespace Guidsen\FakeIdentifier;
 
-use Jenssegers\Optimus\Optimus;
-
 trait FakeIdentifierHelper
 {
     public function decode($hash)
     {
-        //return app
+        return app('optimus')->decode($hash);
+    }
+
+    public function encode($id)
+    {
+        return app('optimus')->encode($id);
     }
 }
