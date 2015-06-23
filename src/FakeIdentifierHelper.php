@@ -2,9 +2,9 @@
 
 trait FakeIdentifierHelper
 {
-    public function decode($hash)
+    public function decode($hashedId)
     {
-        return app('optimus')->decode($hash);
+        return app('optimus')->decode($hashedId);
     }
 
     public function encode($id)

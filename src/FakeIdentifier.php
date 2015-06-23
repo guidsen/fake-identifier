@@ -10,7 +10,7 @@ trait FakeIdentifier
         return parent::getAttribute($key);
     }
 
-    public function setAppends()
+    public function setAppends(array $appends)
     {
         $attributeName = app('optimus')->getAttributeName();
         $this->appends = array_merge($this->appends, [$attributeName]);
