@@ -1,4 +1,4 @@
-# Fake Identifier Transformation for Lumen and Laravel 5.1
+# ID Transformation with Lumen and Laravel 5.1
 
 With this little package you are able to transform your internal id's to obfuscated integers.
 The package is made on top of [jenssegers/optimus](https://github.com/jenssegers/optimus) and is similar to Hashids.  
