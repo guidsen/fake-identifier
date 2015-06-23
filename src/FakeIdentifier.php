@@ -12,7 +12,7 @@ trait FakeIdentifier
         if ($key == app('optimus')->getAttributeName())
             return app('optimus')->encode($this->attributes['id']);
 
-        parent::getAttribute($key);
+        return parent::getAttribute($key);
     }
 
     public function setAppends(array $appends)
