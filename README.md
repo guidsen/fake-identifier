@@ -1,6 +1,4 @@
-# ID Transformation with Lumen and Laravel 5.1
-
-With this little package you are able to transform your internal id's to obfuscated integers.
+With this little package you are able to transform your internal id's to obfuscated integers easily in Laravel and Lumen 5.1.
 The package is made on top of [jenssegers/optimus](https://github.com/jenssegers/optimus) and is similar to Hashids.  
 If you use this library and use the traits that comes with it, you will be able to get a hashed identifier by using the `hashed_id` attribute. So `$model->hashed_id` will contain you hashed id.  
 If you want to change the attribute name, you can have a look at the [usage](#usage) section.
