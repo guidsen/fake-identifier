@@ -2,7 +2,7 @@
     "name": "guidsen/fake-identifier",
     "description": "A package to protect your ID with some hashing.",
     "require": {
-        "jenssegers/optimus": "dev-master",
+        "jenssegers/optimus": "0.1.*",
         "illuminate/support": "5.1.*"
     },
     "authors": [
