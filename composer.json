@@ -15,6 +15,5 @@
       "psr-4": {
         "Guidsen\\FakeIdentifier\\": "src/"
       }
-    },
-    "minimum-stability": "dev"
+    }
 }

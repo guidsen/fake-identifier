@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9a6611d50640e3b5c8723628bc5e2395",
+    "hash": "61f0941b09fe35c459eefda915793010",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -64,16 +64,16 @@
         },
         {
             "name": "doctrine/inflector",
-            "version": "dev-master",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "e5eaf8c7ded0877195b5d2848491e17b1c0a6c4d"
+                "reference": "0bcb2e79d8571787f18b7eb036ed3d004908e604"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/e5eaf8c7ded0877195b5d2848491e17b1c0a6c4d",
-                "reference": "e5eaf8c7ded0877195b5d2848491e17b1c0a6c4d",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/0bcb2e79d8571787f18b7eb036ed3d004908e604",
+                "reference": "0bcb2e79d8571787f18b7eb036ed3d004908e604",
                 "shasum": ""
             },
             "require": {
@@ -127,20 +127,20 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-01-01 18:34:57"
+            "time": "2014-12-20 21:24:13"
         },
         {
             "name": "illuminate/contracts",
-            "version": "5.1.x-dev",
+            "version": "v5.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "af309aa2b64a5b8357ab3af36356607c3d4ad753"
+                "reference": "6e18848e5d332d802aa8bfa60b95e022023973f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/af309aa2b64a5b8357ab3af36356607c3d4ad753",
-                "reference": "af309aa2b64a5b8357ab3af36356607c3d4ad753",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/6e18848e5d332d802aa8bfa60b95e022023973f1",
+                "reference": "6e18848e5d332d802aa8bfa60b95e022023973f1",
                 "shasum": ""
             },
             "require": {
@@ -169,20 +169,20 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "http://laravel.com",
-            "time": "2015-06-15 00:18:19"
+            "time": "2015-06-08 18:13:21"
         },
         {
             "name": "illuminate/support",
-            "version": "5.1.x-dev",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "a23f15776df5ed7faed4c1f87b184ee6312ac3d0"
+                "reference": "cf0604a576bb5bf3b36ed5c3a4b52c5464fd49b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/a23f15776df5ed7faed4c1f87b184ee6312ac3d0",
-                "reference": "a23f15776df5ed7faed4c1f87b184ee6312ac3d0",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/cf0604a576bb5bf3b36ed5c3a4b52c5464fd49b4",
+                "reference": "cf0604a576bb5bf3b36ed5c3a4b52c5464fd49b4",
                 "shasum": ""
             },
             "require": {
@@ -222,20 +222,20 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "http://laravel.com",
-            "time": "2015-06-22 14:31:00"
+            "time": "2015-06-15 07:46:41"
         },
         {
             "name": "jenssegers/optimus",
-            "version": "dev-master",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jenssegers/optimus.git",
-                "reference": "1885bc6f80391f275b07c778a5cbc158c949249b"
+                "reference": "97f29507b4517f9b3eb93a39c941211e6e98b5c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jenssegers/optimus/zipball/1885bc6f80391f275b07c778a5cbc158c949249b",
-                "reference": "1885bc6f80391f275b07c778a5cbc158c949249b",
+                "url": "https://api.github.com/repos/jenssegers/optimus/zipball/97f29507b4517f9b3eb93a39c941211e6e98b5c2",
+                "reference": "97f29507b4517f9b3eb93a39c941211e6e98b5c2",
                 "shasum": ""
             },
             "require": {
@@ -267,7 +267,7 @@
                 }
             ],
             "description": "Id obfuscation based on Knuth's integer hash method",
-            "homepage": "https://github.com/jenssegers/optimus",
+            "homepage": "https://github.com/jenssegers/php-optimus",
             "keywords": [
                 "hashids",
                 "id obfuscation",
@@ -275,15 +275,13 @@
                 "obfuscation",
                 "optimus"
             ],
-            "time": "2015-05-24 09:20:42"
+            "time": "2015-05-04 09:16:04"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "jenssegers/optimus": 20
-    },
+    "minimum-stability": "stable",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
